@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: 'feignperenviroment'
+  profiles:
+    active: QAS
+
+logging:
+  level:
+    br.com.brendoniwata.BrendonClient: DEBUG
+feign:
+  client:
+    config:
+      default:
+        loggerLevel: full

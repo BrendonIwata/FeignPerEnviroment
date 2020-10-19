@@ -1,0 +1,5 @@
+feign:
+  name:
+    site: pokemon
+  url:
+    site: https://pokeapi.co/api/v2/pokemon/pikachu
